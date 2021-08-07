@@ -1,2 +1,49 @@
 ﻿body {
+    background-color: #0E0E10;
+    color: #FDFEFB;
+    text-align: center;
+}
+    body a:hover {
+        color: #6B4B9E;
+    }
+header {
+    background-color: #18181B;
+    color: #FDFEFB;
+    border-style: solid;
+    border-color: dimgrey;
+}
+
+/*Adding side Nav*/
+.sidenav {
+    height: 75%; /* 100% Full-height */
+    width: 250px;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: auto; /*Set to auto so it will go on the right side*/
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 170px; /* Place content 170px from the top */
+    border-style: solid; /* Added a border*/
+    border-color: dimgrey; /* Added a border color*/
+    
+}
+
+/*navigation menu links*/
+.sidenav a {
+    padding: 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FDFEFB;
+    display: block;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
 }
