@@ -47,3 +47,19 @@ header {
             font-size: 18px;
         }
 }
+/*Make the nave inline*/
+nav ul li {
+    display: inline-block;
+}
+
+nav ul {
+    background-color: #18181B;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: .8em 1em;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+
+
